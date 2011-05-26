@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.google.android.maps.MapView
+		android:id="@+id/ma_mv_map" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:enabled="true"
+		android:clickable="true" android:apiKey="08VwcUShUOuKWjQwV7JSnKg7R2lxC3eZBkIR1pg"
+		android:focusable="true" android:focusableInTouchMode="true"
+		android:keepScreenOn="true" />
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_gravity="top|center_horizontal">
+		<CheckBox android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:drawableRight="@drawable/friend"
+			android:id="@+id/cb_friend"></CheckBox>
+		<CheckBox android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:drawableRight="@drawable/restaurant"
+			android:id="@+id/cb_restaurant"></CheckBox>
+		<Button android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="Me" android:id="@+id/bt_me"></Button>
+	</LinearLayout>
+
+</FrameLayout>
